@@ -9,7 +9,7 @@ while first_index < src.count+1 do
   second_index = 0 
   while second_index < src[first_index].count+1 do
     if src[first_index][second_index].is_a? String
-      binding.pry
+      #binding.pry
       string_array << src[first_index][second_index]
     end
     second_index += 1 
