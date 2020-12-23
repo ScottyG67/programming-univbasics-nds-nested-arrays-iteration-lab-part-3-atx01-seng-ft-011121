@@ -16,7 +16,7 @@ while first_index < src.count do
   while second_index < src[first_index].count do
     if src[first_index][second_index].is_a? String
       #binding.pry
-      message + src[first_index][second_index]
+      message + src[first_index][second_index].to_string
     end
     second_index += 1 
   end
