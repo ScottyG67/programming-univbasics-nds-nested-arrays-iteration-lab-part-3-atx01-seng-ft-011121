@@ -4,8 +4,8 @@ def join_nested_strings(src)
   
 string_array =[]
 first_index =0 
-while first_index < string_array.count do
+while first_index < src.count do
   second_index = 0 
-  while second_index < second_index[first_index].count do
-    
+  while second_index < src[first_index].count do
+    if src[first_index][second_index].is_a
 end
