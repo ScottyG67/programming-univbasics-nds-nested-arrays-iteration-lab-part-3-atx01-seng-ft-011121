@@ -12,6 +12,6 @@ while first_index < src.count do
     end
     second_index += 1 
   end
-  first_index +=1 
+  first_index += 1 
 string_array
 end
