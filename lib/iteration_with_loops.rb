@@ -1,4 +1,4 @@
-#def join_nested_strings(src)
+def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
 
@@ -22,5 +22,5 @@ while first_index < src.count do
   end
   first_index += 1 
 end
-puts message
-#end
+message
+end
