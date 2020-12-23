@@ -9,7 +9,7 @@ src = [
 ]
 
   require 'pry'
-message =" "
+message ="The"
 first_index =0 
 while first_index < src.count do
   second_index = 0 
